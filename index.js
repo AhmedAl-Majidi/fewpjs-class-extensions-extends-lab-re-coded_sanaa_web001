@@ -10,5 +10,6 @@ class Polygon {
     for (let i = 0; i < this.sides.length; i++) {
       sidesSum += this.sides[i];
     }
+    return sidesSum;
   }
 }
