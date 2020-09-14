@@ -26,3 +26,17 @@ class Triangle extends Polygon {
     }
   }
 }
+
+class Square extends Polygon {
+  get isValid(){
+    let side1 = this.sides[0]
+    let side2 = this.sides[1]
+    let side3 = this.sides[2]
+    let side4 = this.sides[3]
+
+    if((this.sides.length === 4) && (side1 === side2 === side3 === side4)) return true;
+    else {
+      return false;
+    }
+  }
+}
