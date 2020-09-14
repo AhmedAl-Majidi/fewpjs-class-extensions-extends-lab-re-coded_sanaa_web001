@@ -40,6 +40,6 @@ class Square extends Polygon {
     }
   }
   get area() {
-    return this.side1 * this.side1;
+    return this.side[0] * this.side[0];
   }
 }
