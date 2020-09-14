@@ -13,3 +13,12 @@ class Polygon {
     return sidesSum;
   }
 }
+
+class Triangle extends Polygon {
+  get isValid () {
+    if(this.sides.length === 3 ) return
+    else {
+      return false;
+    }
+  }
+}
